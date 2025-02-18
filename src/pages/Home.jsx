@@ -1,5 +1,8 @@
+import Besteller from "../components/Besteller"
 import Hero from "../components/Hero"
 import LatestCollection from "../components/LatestCollection"
+import NewsLetterBox from "../components/NewsLetterBox"
+import OurPolicy from "../components/OurPolicy"
 
 
 const Home = () => {
@@ -7,6 +10,9 @@ const Home = () => {
     <div>
       <Hero />
       <LatestCollection />
+      <Besteller/>
+      <OurPolicy />
+      <NewsLetterBox />
     </div>
   )
 }
