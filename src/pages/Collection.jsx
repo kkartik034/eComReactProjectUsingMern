@@ -44,6 +44,7 @@ if(subCategory.length > 0){
 
 const sortProduct = () =>{
   let fpCopy = filterProducts.slice();
+  console.log(fpCopy)
 
 switch (sortType) {
   case 'low-high':
